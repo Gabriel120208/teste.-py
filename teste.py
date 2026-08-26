@@ -57,15 +57,15 @@ p4 = input('devia para a vitima? ').lower()
 p5 = input('ja trabalhou com a vitima? ').lower()
 
 resposta = 0
-if (p1 = 'sim'):
+if (p1 == 'sim'):
     resposta = resposta + 1
-if (p2 = 'sim'):
+if (p2 == 'sim'):
     resposta = resposta + 1 
-if (p3 = 'sim'):
+if (p3 == 'sim'):
     resposta = resposta + 1
-if (p4 = 'sim'):
+if (p4 == 'sim'):
     resposta = resposta + 1
-if (p5 = 'sim'):
+if (p5 == 'sim'):
     resposta = resposta + 1   
 
 if (resposta == 5):
